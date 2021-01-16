@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Intraday-->
+        <!--IntradayViewController-->
         <scene sceneID="Nmb-vX-vCU">
             <objects>
-                <viewController id="66F-En-1VX" sceneMemberID="viewController">
+                <viewController title="IntradayViewController" id="66F-En-1VX" customClass="IntradayViewController" customModule="AVShowcase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L4M-l4-Vni">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="-2081.159420289855" y="890.625"/>
         </scene>
-        <!--Daily-->
+        <!--DailyViewController-->
         <scene sceneID="PuE-fh-hQZ">
             <objects>
-                <viewController id="BZQ-dX-Zab" sceneMemberID="viewController">
+                <viewController title="DailyViewController" id="BZQ-dX-Zab" customClass="DailyViewController" customModule="AVShowcase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YbH-Zs-Dw1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="-1072.463768115942" y="898.66071428571422"/>
         </scene>
-        <!--Config-->
+        <!--ConfigViewController-->
         <scene sceneID="iOn-v5-CSc">
             <objects>
-                <viewController id="cDq-j3-PYQ" sceneMemberID="viewController">
+                <viewController title="ConfigViewController" id="cDq-j3-PYQ" customClass="ConfigViewController" customModule="AVShowcase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tS7-jr-34U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,7 +83,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="7Ik-ZM-h94">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jkn-IP-hhp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="KcX-a9-AVi" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SF7-K0-epz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -96,6 +95,7 @@
                         <segue destination="cDq-j3-PYQ" kind="relationship" relationship="viewControllers" id="bOM-0c-l85"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jkn-IP-hhp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1072" y="137"/>
         </scene>
